@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <title>Portfolio | ANW4R</title>
+</head>
+<body class="white-theme">
+    <section class="hero">
+        <header>
+            <nav>
+                <a href="#home" class="logo"><span>MR | </span>ANW4R</a>
+
+                <div class="nav-links">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="nav-right">
+                    <span><i class="fa-solid fa-moon btn-mode"></i></span>
+                    <div class="hamburger">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="contanier" id="home">
+            <div class="div-text">
+                <h4>Hello, my name is</h4>
+                <h1>Anwar Abdirahman </h1>
+                <span>Front-end Developer</span>
+                <p>Skilled programmer focused on smart solutions and continuous learning, 
+                turning ideas into real projects.</p>
+
+                <a href="#" class="btn" id="downloadCV">Download CV</a>
+            </div>
+
+            <div class="div-img">
+                <img src="about.png" alt="Madani's Profile">
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="about.png" alt="About Madani">
+                </div>
+                <div class="about-text">
+                    <h3>Front-end Developer</h3>
+                    <p>I'm a passionate front-end developer with 3 years of experience creating responsive and user-friendly websites. My journey in web development started when I was studying computer science and fell in love with creating beautiful interfaces.</p>
+                    <div class="info-box">
+                        <div class="info-item">
+                            <p>Name: <span> Anwar Abdirahman </span></p>
+                            <p>Experience: <span>3 Years</span></p>
+                        </div>
+                        <div class="info-item">
+                            <p>Email: <span>anwar_apdirahman_27@gmail.com</span></p>
+                            <p>Location: <span>Mogadishu, Somalia</span></p>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">My <span>Services</span></h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Building responsive and interactive websites using modern technologies like React, Vue.js and modern CSS frameworks.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    <h3>Mobile Development</h3>
+                    <p>Creating cross-platform mobile applications using React Native and Flutter for both iOS and Android platforms.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa-solid fa-paintbrush"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Designing beautiful and intuitive user interfaces that enhance user experience and drive engagement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="skills-content">
+                <div class="skills-text">
+                    <h3>Technical Skills & Experience</h3>
+                    <p>I've worked with a variety of technologies in the web development world. From front-end to design, I've got you covered for your digital needs.</p>
+                    <a href="#projects" class="btn">See Projects</a>
+                </div>
+                <div class="skills-bars">
+                    <div class="skill-item">
+                        <p>HTML/CSS <span>95%</span></p>
+                        <div class="progress-bar"><div class="progress" style="width: 95%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <p>JavaScript <span>85%</span></p>
+                        <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <p>React <span>80%</span></p>
+                        <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <p>UI/UX Design <span>75%</span></p>
+                        <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">My <span>Projects</span></h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="1.png" alt="E-commerce Website">
+                    <div class="project-info">
+                        <h3>E-commerce Platform</h3>
+                        <p>Full-featured online store with cart functionality and payment integration.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="2.png" alt="Task Management App">
+                    <div class="project-info">
+                        <h3>Task Management App</h3>
+                        <p>Productivity application with drag-and-drop interface and team collaboration.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="3.jpg" alt="Portfolio Website">
+                    <div class="project-info">
+                        <h3>Artist Portfolio</h3>
+                        <p>Showcase website for a local artist with gallery and contact features.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact <span>Me</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Talk About Your Project</h3>
+                    <p>Feel free to reach out if you're looking for a developer, have a question, or just want to connect.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>anwar_apdirahman_27@gmail.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>+252 61 9 18 46 82 19</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Mogadishu, Somalia</p>
+                        </div>
+                    </div>
+                 <div class="social-links">
+    <a href="https://github.com/arwar-abdirahman" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/mdn-abdirahman-674725365/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://x.com/Anwar1413575" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i></a>
+    <a href="https://instagram.com/anw4rdeveloper/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+</div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="text" placeholder="Subject">
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                    
+                </form>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Anwar All Rights Reserved.</p>
+          
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
