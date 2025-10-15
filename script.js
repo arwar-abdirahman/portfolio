@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     // Contact Form Submit
-    document.querySelector('.contact-form')?.addEventListener('submit', function (e) {
+    document.querySelector('.contact-form')?.addEventListener('submitt', function (e) {
         e.preventDefault();
 
         const name = this.querySelector('input[type="text"]').value.trim();
